@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back{
+    background-color: rgb(0, 0, 0);
+}
+
+.menubox{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(253, 253, 253);
+    position: fixed;
+    margin: auto;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+}
+.selected li{
+    color: rgb(245, 135, 20);
+}
+.menu li{
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 0 80px;
+    left: 0px;
+    top: 20px;
+}
+
+.menubox a:hover{
+    text-decoration: none;
+    color: rgb(245, 135, 20);
+}
+
+.menubox a{
+    text-decoration: none;
+    color: black;
+}
+
+#oran{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 115, 0);
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    top: 48px;
+}
+
+
+.logo{
+    width: 114,8717948717949px;
+    height: 70px;
+    position: relative;
+    top: -22.5px;
+    left: -850px;
+}
+
+
+.seal{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 930px;
+    left: -120px;
+}
+
+.rodape{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 1740px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#org{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(245, 135, 20);
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    top: 105px;
+}
+.lgroda{
+    height: 200px;
+    width: 335px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+
+.mp{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+}
+
+.ctt{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    top: 35px;
+    position: relative;
+}
+
+#email{
+    font-family: 'Open Sans', sans-serif;
+    top: 76px;
+    position: relative;
+    left: 720px;
+    font-size: 25px;
+
+}
+
+#phone{
+    font-family: 'Open Sans', sans-serif;
+    top: 80px;
+    position: relative;
+    left: 1400px;
+    font-size: 25px;
+}
+
+#adress{
+    font-family: 'Open Sans', sans-serif;
+    top: 100px;
+    position: relative;
+    left: 720px;
+    font-size: 25px;
+}
+#int{
+    font-family: 'Open Sans', sans-serif;
+    top: 125px; 
+    left: 805px;
+    position: relative;
+    color: rgb(78, 78, 78);
+ }
+.titulo{
+     color: coral;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 27px;
+     text-align: center;
+ }
+
+/*contato*/
+
+.contato{
+    min-height: 400px;
+    padding: 100px 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.w60{
+    width: 60%;
+    float: left;
+}
+
+.w40{
+    width: 40%;
+    float: left;
+}
+
+#ctt{
+    color: rgb(255, 123, 0);
+    left: 30%;
+    position: relative;
+    top: -5px;
+}
+
+#ctt2{ 
+    color: rgb(255, 123, 0);
+    text-align: center;
+}
+.material-symbols-outlined{
+    color: white;
+}
+.inf{
+    color: white;
+}
+.formulario{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px 0;
+    border-left: 15px solid rgb(255, 123, 0);
+    padding-left: 30px;
+}
+
+.formulario form{
+    margin-top: 10px;
+}
+
+.button_form{
+    width: 100px;
+    text-decoration: none;
+    background-color: rgb(255, 123, 0);
+    font-size: 17px;
+    display: inline-block;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.formulario input[type=text],
+.formulario input[type=email]{
+    width: 80%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.formulario textarea
+{
+    width: 80%;
+    height: 105px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.button-form{
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.button-form button{
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+}
+
+.bnctt{
+    position: relative;
+    width: 85%;
+    height: auto;
+    left: 100px;
+    top: 191px;
+ 
+}
+
+.laranj{
+    background-color: rgb(250, 134, 25);
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 650px;
+}
+
+.laranj2{
+    background-color: rgb(250, 134, 25);
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 1440px;
+}
+
+
+.botao1{
+    width: 250px;
+    padding: 16px 32px;
+    text-decoration: none;
+    background-color: rgb(245, 135, 20);
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 320px;
+    position: relative;
+    text-align: center;
+    left: 820px;
+    top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    text-decoration: none;
+    color: rgb(255, 157, 52);
+    background-color: white;
+}
+/*fim contato*/

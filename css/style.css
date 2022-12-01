@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back{
+    background-color: black;
+}
+
+.menubox{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(253, 253, 253);
+    position: fixed;
+    margin: auto;
+    box-sizing: border-box;
+    z-index: 1;
+    text-align: center;
+}
+
+nav{
+    position: fixed;
+}
+.selected li{
+    color: rgb(245, 135, 20);
+}
+.menu li{
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding: 0 80px;
+    left: 0px;
+    top: 20px;
+}
+
+.menubox a:hover{
+    text-decoration: none;
+    color: rgb(245, 135, 20);
+}
+
+.menubox a{
+    text-decoration: none;
+    color: black;
+}
+
+#oran{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 115, 0);
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    top: 48px;
+}
+
+.posbra{
+    position: absolute;
+    width: 550px;
+    height: 100px;
+    background-color: white;
+    top: 878px;
+    text-align: center;
+    left: 570px;
+    border-radius: 20px;
+}
+
+.poslar{
+    position: absolute;
+    width: 680px;
+    height: 100px;
+    background-color: rgb(245, 135, 20);
+    top: 790px;
+    text-align: center; 
+    left: 650px;
+    border-radius: 20px;
+}
+
+.fl{
+    float: left;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+#lar{
+    color: rgb(245, 135, 20);
+}
+
+.logo{
+    width: 114,8717948717949px;
+    height: 70px;
+    position: relative;
+    top: -22.5px;
+    left: -850px;
+}
+
+.lgbanner{
+    position: relative;
+    top: 200px;
+    left: -40px;
+}
+
+.seal{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: 930px;
+    left: -120px;
+}
+
+#serv{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: absolute;
+    left: 700px; 
+    top: 1050px;
+    font-size: x-large;
+}
+
+.man{
+    position: relative;
+    top: 100px;
+}
+.rodape{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 2100px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#org{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(245, 135, 20);
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    top: 1435px;
+}
+.lgroda{
+    height: 200px;
+    width: 335px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+#banner{
+    position: absolute;
+    width: 100%;
+    top: 75px;
+}
+.botao1{
+    width: 200px;
+    padding: 16px 32px;
+    text-decoration: none;
+    background-color: rgb(245, 135, 20);
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 320px;
+    position: relative;
+    text-align: center;
+    left: 1620px;
+    top: 1140px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.btn:hover{
+    text-decoration: none;
+    color: rgb(255, 157, 52);
+    background-color: white;
+
+}
+
+.mp{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+}
+
+.ctt{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    top: 35px;
+    position: relative;
+}
+
+#email{
+    font-family: 'Open Sans', sans-serif;
+    top: 76px;
+    position: relative;
+    left: 720px;
+    font-size: 25px;
+
+}
+
+#phone{
+    font-family: 'Open Sans', sans-serif;
+    top: 80px;
+    position: relative;
+    left: 1400px;
+    font-size: 25px;
+}
+
+#adress{
+    font-family: 'Open Sans', sans-serif;
+    top: 100px;
+    position: relative;
+    left: 720px;
+    font-size: 25px;
+}
+#int{
+    font-family: 'Open Sans', sans-serif;
+    top: 125px; 
+    left: 805px;
+    position: relative;
+    color: rgb(78, 78, 78);
+ }
+.titulo{
+     color: coral;
+     font-family: 'Courier New', Courier, monospace;
+     font-size: 27px;
+     text-align: center;
+ }
+
+
+
+
+.bt2{
+    color: beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*media*/
+
+@media screen and (max-width: 1700px){
+
+    .menubox{
+        left: 0px;
+        width: 1680px;
+    }
+    .logo{
+        left: -750px;
+    }
+    .lgbanner{
+        width: 550px;
+        height: 200px;
+    }
+    .rodape{
+        width: 1680px;
+        
+    }
+    .width{
+        left: -370px;
+        position: relative;
+        font-size: 10px;
+    }
+    .lgroda{
+        width: 250px;
+        height: 170px;
+        left: 20px;
+    }
+    #int{
+        left: 700px;
+    }
+    .rodape{
+        width: 100%;
+    }
+    .botao1{
+        left: 1200px;
+    }
+}
